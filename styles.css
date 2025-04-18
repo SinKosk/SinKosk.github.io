@@ -1,0 +1,31 @@
+.color-example {
+    color: darkorange;
+    background-color: #ffffcc; 
+    border: 3px solid orange; 
+}
+
+.header-example {
+    font-size: 32px;
+    font-family: 'Courier New', Courier, monospace, sans-serif;
+    color: darkgreen;
+}
+
+.list-example {
+    list-style-type: square;
+    color: darkolivegreen;
+}
+
+.text-example {
+    font-family: 'Arial Nova', serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    color: blue;
+}
+
+.div-example {
+    background-color:#c48aad;
+    border: 4px dashed darkmagenta;
+    padding: 10px;
+    margin-top: 15px;
+}
