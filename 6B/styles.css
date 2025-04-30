@@ -1,0 +1,98 @@
+body {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Arial, sans-serif;
+}
+
+#header {
+    background-color: rgb(234, 149, 51);
+    padding: 20px;
+    text-align: center;
+}
+
+#nav {
+    background-color: rgb(131, 200, 230);
+    padding: 20px;
+    text-align: center;
+}
+
+#nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: black;   
+}
+
+#nav a:hover {
+    color: red;
+  }
+  
+
+#nav a.active {
+    color: rgb(214, 107, 7);
+    padding: 5px 10px;
+    border-radius: 10px;
+  }
+
+.content-area {
+    width: 100%;
+    overflow: hidden;
+}
+
+body.third .content-area {
+    display: flex;
+    align-items: stretch; /* venyttää laatikot sidevav ja section saman korkuisiksi */
+  }
+  
+
+body.third .side-nav {
+    float: left;
+    width: 10%;
+    background-color: #a1d3e2;
+    padding: 10px;
+    margin-top: 10px;
+    box-sizing: border-box;
+  }
+  .side-nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  .side-nav li {
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  .side-nav a { text-decoration: none; 
+  }
+  
+body.third #section {
+    float: left; /* asetetaan vierekkäin side-navin kanssa */
+    width: 90%; /* body 90% - side-nav 10%*/
+    background-color: rgb(234, 129, 49);
+    padding: 20px;
+    margin-top: 10px;
+    line-height: 1.6;
+    border: 1px solid #ccc;
+    box-sizing: border-box; /* varmistaa, että padding ei riko leveyttä */
+}
+
+#section {
+    float: left; /*tämä on index6 ja second teksti osuus*/
+    width: 100%;
+    background-color:  rgb(234, 129, 49);
+    padding: 20px;
+    margin-top: 10px;
+    line-height: 1.6;
+    border:  1px solid #ccc;
+    box-sizing: border-box;
+  }
+
+.clearfix {
+    clear: both;
+  }
+
+
+
+  
+  
+
+  
